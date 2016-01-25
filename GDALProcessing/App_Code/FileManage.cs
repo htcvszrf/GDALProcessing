@@ -191,7 +191,7 @@ using System.Collections;
             {
                 if (NextFile.Name.Contains(Extentions))
                 {
-                    string sFullPath = sPath + "\\" + theFolder + "\\" + NextFile.Name;
+                    string sFullPath = sPath + "\\" + NextFile.Name;
 
                     sFiles.Add(sFullPath);
                 }
